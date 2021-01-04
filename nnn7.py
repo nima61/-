@@ -6,7 +6,7 @@ from thrift.unverting import *
 from thrift.TMultiplexedProcessor import *
 from thrift.TSerialization import *
 from thrift.TRecursive import *
-from thrift import transport, protocol, server
+from thrift import transport, yy, server
 from multiprocessing import Pool, Process
 from humanfriendly import format_timespan, format_size, format_number, format_length
 from time import sleep
